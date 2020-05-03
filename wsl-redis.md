@@ -11,6 +11,22 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 2. Reboot Windows after making the change—note that you only need to do this one time
 3. Download and install one of the supported Linux distros from the Microsoft Store.
 4. Ubuntu 18.04
+5. Some commands in WSL
+
+```bash
+ALT+ENTER to make WSL bash full screen
+
+lsb-release -a
+pwd
+
+// tell me about my machine
+df -h 
+
+// windows folder
+cd /mnt/c
+
+sudo apt install htop
+```
 
 ## Install and Test Redis
 
