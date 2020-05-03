@@ -48,7 +48,7 @@ $ redis-cli
 ```
 ## install npm in WSL ubuntu
 
-- https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2
+- https://github.com/nvm-sh/nvm
 ```bash
 $ sudo apt-get install curl
 $ sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
