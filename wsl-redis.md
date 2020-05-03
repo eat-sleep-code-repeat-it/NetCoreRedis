@@ -13,13 +13,13 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 4. Ubuntu 18.04
 5. Some commands in WSL
 
-- ALT+ENTER to make WSL bash full screen
-- CTRL + MOUSE SCROLL to zoom-in/out
-- SHIFT + MOUSE SCROLL to scroll up/down
-- CTRL+SHIFT+MOUSE SCROLL to change transparency of bach window
-- ls /mnt to list all mounted drive in windows
-- code . to open code in windows from WSL
-- wsl -l from windows 10 powershell
+- <b>ALT+ENTER</b> to make WSL bash full screen
+- <b>CTRL + MOUSE SCROLL</b> to zoom-in/out
+- <b>SHIFT + MOUSE SCROLL</b> to scroll up/down
+- <b>CTRL+SHIFT+MOUSE SCROLL</b> to change transparency of bach window
+- <b>ls /mnt</b> to list all mounted drive in windows
+- <b>code .</b> to open code in windows from WSL
+- <b>wsl -l</b> from windows 10 powershell
 
 ```bash
 lsb-release -a
@@ -48,13 +48,13 @@ $ redis-cli
 ```
 ## install npm in WSL ubuntu
 
-- https://github.com/nvm-sh/nvm
 ```bash
 $ sudo apt-get install curl
 $ sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
-exit your bash and reopen it
+# exit your bash and reopen it
 $ command -v nvm
 
+# install node
 $ nvm ls
 $ nvm install node
 $ nvm ls
@@ -62,8 +62,11 @@ $ node --version
 $ npm --version
 $ which node
 $ which npm
+
+# install angular cli
 $ npm install -g @angular/cli
 
 ## Reference
 
 - http://hanselman.com/windows10.
+- https://github.com/nvm-sh/nvm
