@@ -9,6 +9,7 @@ sudo apt-get install python3-pip
 
 ## Reference
 
+- https://devblogs.microsoft.com/commandline/introducing-the-windows-console-colortool/
 - https://redislabs.com/blog/redis-on-windows-10/
 - [redis-py](https://pypi.org/project/redis/)
 - [servicestack netcore-clients](https://docs.servicestack.net/netcore-clients)
