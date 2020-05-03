@@ -14,3 +14,4 @@ sudo apt-get install python3-pip
 - [servicestack netcore-clients](https://docs.servicestack.net/netcore-clients)
 - https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
 - https://www.hanselman.com/blog/VIDEOHowToRunLinuxAndBashOnWindows10AnniversaryUpdate.aspx
+- http://redisreact.servicestack.net/?#/connections
