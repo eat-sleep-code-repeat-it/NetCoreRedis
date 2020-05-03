@@ -13,18 +13,19 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 4. Ubuntu 18.04
 5. Some commands in WSL
 
-```bash
-ALT+ENTER to make WSL bash full screen
+- ALT+ENTER to make WSL bash full screen
+- CTRL + MOUSE SCROLL to zoom-in/out
+- SHIFT + MOUSE SCROLL to scroll up/down
+- CTRL+SHIFT+MOUSE SCROLL to change transparency of bach window
+- ls /mnt to list all mounted drive in windows
+- code . to open code in windows from WSL
 
+```bash
 lsb-release -a
 pwd
-
-// tell me about my machine
 df -h 
-
 // windows folder
 cd /mnt/c
-
 sudo apt install htop
 ```
 
