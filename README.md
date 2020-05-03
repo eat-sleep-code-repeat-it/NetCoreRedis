@@ -19,3 +19,4 @@ sudo apt-get install python3-pip
 - https://medium.com/net-core/in-memory-distributed-redis-caching-in-asp-net-core-62fb33925818
 - https://tutexchange.com/using-distributed-redis-cache-with-asp-net-core-3-1/
 - https://docs.microsoft.com/en-us/aspnet/core/performance/caching/distributed?view=aspnetcore-3.1
+- https://www.annytab.com/redis-cache-in-asp-net-core/
