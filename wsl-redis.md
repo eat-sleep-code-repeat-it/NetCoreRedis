@@ -19,6 +19,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 - CTRL+SHIFT+MOUSE SCROLL to change transparency of bach window
 - ls /mnt to list all mounted drive in windows
 - code . to open code in windows from WSL
+- wsl -l from windows 10 powershell
 
 ```bash
 lsb-release -a
@@ -45,6 +46,23 @@ $ redis-cli
 127.0.0.1:6379> set user:1 "TestUser"
 127.0.0.1:6379> get user:1
 ```
+## install npm in WSL ubuntu
+
+- https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2
+```bash
+$ sudo apt-get install curl
+$ sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
+exit your bash and reopen it
+$ command -v nvm
+
+$ nvm ls
+$ nvm install node
+$ nvm ls
+$ node --version
+$ npm --version
+$ which node
+$ which npm
+$ npm install -g @angular/cli
 
 ## Reference
 
