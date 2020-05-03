@@ -15,3 +15,5 @@ sudo apt-get install python3-pip
 - https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
 - https://www.hanselman.com/blog/VIDEOHowToRunLinuxAndBashOnWindows10AnniversaryUpdate.aspx
 - http://redisreact.servicestack.net/?#/connections
+- https://dotnetcoretutorials.com/2017/01/06/using-redis-cache-net-core/
+- https://medium.com/net-core/in-memory-distributed-redis-caching-in-asp-net-core-62fb33925818
