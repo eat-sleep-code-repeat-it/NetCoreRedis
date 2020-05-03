@@ -25,7 +25,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 lsb-release -a
 pwd
 df -h 
-// windows folder
+# windows folder
 cd /mnt/c
 sudo apt install htop
 ```
@@ -38,7 +38,7 @@ $ sudo apt-get upgrade
 $ sudo apt-get install redis-server
 $ redis-cli -v
 
-// restart
+# restart
 $ sudo service redis-server restart
 $ sudo service redis-server stop
 
