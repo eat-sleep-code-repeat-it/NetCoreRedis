@@ -22,7 +22,8 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 - <b>wsl -l</b> from windows 10 powershell
 
 ```bash
-lsb-release -a
+# check your ubuntu version in wsl
+lsb_release -a
 pwd
 df -h 
 # windows folder
