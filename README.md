@@ -19,7 +19,7 @@ sudo apt-get install python3-pip
   - https://www.hanselman.com/blog/VIDEOHowToRunLinuxAndBashOnWindows10AnniversaryUpdate.aspx
   
 - NetCore Redis
-  
+  - [Distributed caching in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/performance/caching/distributed?view=aspnetcore-3.1#distributed-sql-server-cache)
   - [StackExchange](github.com/StackExchange/StackExchange.Redis)
   - [StackExchange Documentation](https://stackexchange.github.io/StackExchange.Redis/)
   - [commercially-supported product:ServiceStack](github.com/ServiceStack/ServiceStack.Redis)
