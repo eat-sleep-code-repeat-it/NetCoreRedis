@@ -22,8 +22,8 @@ sudo apt-get install python3-pip
   - [Distributed caching in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/performance/caching/distributed?view=aspnetcore-3.1#distributed-sql-server-cache)
   - [StackExchange](github.com/StackExchange/StackExchange.Redis)
   - [StackExchange Documentation](https://stackexchange.github.io/StackExchange.Redis/)
-  - [commercially-supported product:ServiceStack](github.com/ServiceStack/ServiceStack.Redis)
-  - [commercially-supported product: servicestack netcore-clients](https://docs.servicestack.net/netcore-clients)
+  - [Commercially-supported product: ServiceStack](github.com/ServiceStack/ServiceStack.Redis)
+  - [Commercially-supported product: servicestack netcore-clients](https://docs.servicestack.net/netcore-clients)
   - http://redisreact.servicestack.net/?#/connections
   - https://dotnetcoretutorials.com/2017/01/06/using-redis-cache-net-core/
   - https://medium.com/net-core/in-memory-distributed-redis-caching-in-asp-net-core-62fb33925818
