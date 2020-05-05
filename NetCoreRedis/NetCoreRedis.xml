@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NetCoreRedis</name>
+    </assembly>
+    <members>
+        <member name="M:NetCoreRedis.Controllers.RedisBooksController.Get(System.String)">
+            <summary>
+            Get book by ISBN from Redis
+            </summary>
+            <param name="isbn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NetCoreRedis.Controllers.RedisBooksController.Post(System.String,System.String)">
+            <summary>
+            Post book with ISBN and Title to Redis
+            </summary>
+            <param name="isbn"></param>
+            <param name="title"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

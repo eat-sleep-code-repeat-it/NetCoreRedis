@@ -1,5 +1,13 @@
-# NetCoreRedis
+# NetCore with Redis
 
+## NetCoreRedis uses StackExchange.Redis
+
+- https://stackexchange.github.io/StackExchange.Redis/Basics
+
+## NetCoreRedisClient uses StackExchange.Redis.Extensions
+
+- http://taswar.zeytinsoft.com/redis-for-net-developers-redis-with-aspnetcore-webapi/
+- https://tutexchange.com/using-redis-cache-with-asp-net-core-3-1-using-stackexchange-redis-extensions-core-extensions/
 
 ```bash
 sudo apt-get install python3-pip
