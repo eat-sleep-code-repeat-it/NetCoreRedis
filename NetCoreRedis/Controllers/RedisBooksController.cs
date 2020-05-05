@@ -19,6 +19,33 @@ namespace NetCoreRedis.Controllers
             _redisService = redisService;
         }
 
+        [HttpGet("server/endpoints")]
+        public ActionResult GetEndPoints()
+        {
+            return Ok(_redisService.GetEndPoints());
+        }
+
+        [HttpGet("server/lastsave")]
+        public ActionResult GetLastSave()
+        {
+            return Ok(_redisService.GetLastSave());
+        }
+        [HttpGet("server/memstats")]
+        public ActionResult GetSeverInfo()
+        {
+            return Ok(_redisService.MemoryStats());
+        }
+
+        [HttpGet("server/clientlist")]
+        public ActionResult ClientList()
+        {
+            return Ok(_redisService.ClientList());
+        }
+
+
+
+
+
         /// <summary>
         /// Get book by ISBN from Redis
         /// </summary>
