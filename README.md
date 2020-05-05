@@ -1,5 +1,7 @@
 # NetCore with Redis
 
+## [Setup WSL for Windows 10](wsl-redis.md)
+
 ## NetCoreRedis uses StackExchange.Redis
 
 - https://stackexchange.github.io/StackExchange.Redis/Basics
