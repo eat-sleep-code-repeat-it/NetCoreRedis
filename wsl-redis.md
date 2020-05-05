@@ -64,6 +64,10 @@ $ npm --version
 $ which node
 $ which npm
 
+```bash
+sudo apt-get install python3-pip
+```
+
 # install angular cli
 $ npm install -g @angular/cli
 
